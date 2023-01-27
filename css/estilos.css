@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+.class-foto-perfil{
+    width:40%;
+    float: left;
+    padding: 15px;
+}
+
+.class-nav{
+    width:60%;
+    margin-top: 10px;
+    float: left;
+    padding: 15px;
+}
+
+.class-alcien{
+    width:100%;
+    float:left;
+    padding: 15px;
+}
+
+h1{
+    font-size:50px;
+}
+
+body{
+    background-image: url(ondas.jpg);
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    width: 700px;
+    border: 15px;
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+nav{
+    top: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+#foto-perfil{
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+span{
+    font-weight: bold;
+    color:darkblue;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+}
+
+/* Dispositivos muy pequeños (Menores a 600px) */
+@media only screen and (max-width: 600px) {
+    
+    header{
+        width: 330px;
+    }
+    
+    #foto-perfil{
+    margin-left: 50px;
+    }
+
+    nav{
+        margin-left: 20px;
+        padding: 15px;
+        /*margin: auto;*/
+    }
+
+    .class-nav,.class-foto-perfil{
+        width: 100%;
+    }
+}
